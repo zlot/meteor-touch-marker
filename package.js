@@ -1,6 +1,6 @@
 Package.describe({
     name: 'zlot:touch-marker',
-    version: '0.0.1',
+    version: '0.0.3',
     summary: 'A nice looking touch-marker that fades in and out on touchstart/touchmove/touchend document event',
     git: 'https://github.com/zlot/meteor-touch-marker.git',
     documentation: 'README.md'
