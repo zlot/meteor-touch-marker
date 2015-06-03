@@ -1,6 +1,8 @@
 
 TouchMarker = {
     start: function(opts) {
+        var opts = opts !== undefined ? opts : {};
+
         var opts = _.defaults(opts, {
             maxMarkers: 5,
             color: 'rgba(0,200,200,0.5)'
