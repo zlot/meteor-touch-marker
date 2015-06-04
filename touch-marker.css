@@ -13,9 +13,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -35px 0 0 -35px;
-    width: 70px;
-    height: 70px;
+    margin: -50px 0 0 -50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     content: '';
     pointer-events: none;
@@ -24,24 +24,24 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -35px 0 0 -35px;
-    width: 70px;
-    height: 70px;
+    margin: -50px 0 0 -50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     content: '';
     pointer-events: none;
 }
 .touch-marker-animate::before,
 .touch-marker-animate::after {
-    box-shadow: 0 0 0 2px rgba(0,200,200,0.5);
+    box-shadow: 0 0 0 5px rgba(0,200,200,0.5);
     animation-name: touch-marker-anim-1, touch-marker-anim-2;
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
 .touch-marker.touch-marker-animate-partner::after {
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
 }
 /* animation code borrowed from http://tympanus.net/codrops/2015/02/11/subtle-click-feedback-effects/ */
 @-webkit-keyframes touch-marker-anim-1 {

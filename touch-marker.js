@@ -29,7 +29,7 @@ TouchMarker = {
 
             // splice a marker out
             var $activeMarker = markers.splice(0, 1)[0];
-            $activeMarker.fadeIn();
+            $activeMarker.fadeIn('fast');
             activeMarkers[e.changedTouches[0].identifier] = $activeMarker;
         }
 
