@@ -38,8 +38,7 @@ TouchMarker = {
                 var currTouch = e.touches[i];
                 if(currTouch.identifier in activeMarkers) {
                     activeMarkers[currTouch.identifier].css({
-                        left: currTouch.clientX,
-                        top: currTouch.clientY
+                        transform: 'translate(' + currTouch.clientX + 'px, ' + currTouch.clientY + 'px)'
                     });
                 }
             }
