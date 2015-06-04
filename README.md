@@ -7,8 +7,9 @@ touches on a tabletop device, iPad, TUIO project, etc.
 
 `meteor add zlot:touch-marker`
 
-Then, call `TouchMarker.start()` on the client in `Meteor.startup(function(){})`. This will allow a max of 5 touch markers 
-with a colour of `rgba(0,200,200,0.5)`.
+Then, call `TouchMarker.start()` on the client in `Meteor.startup(function(){})`. 
+
+This will allow a max of `5` touch markers with a colour of `rgba(0,200,200,0.5)`.
 
 ## Options
 Currently the max number of touch markers allowed and the colour of the markers can be changed.
@@ -21,4 +22,4 @@ TouchMarker.start({
 });
 ```
 
-Animation based off one of the "subtle click feedback effects" in [this codrops article](http://tympanus.net/codrops/2015/02/11/subtle-click-feedback-effects/).
+Animation of the touch marker is based off one of the "subtle click feedback effects" in [this codrops article](http://tympanus.net/codrops/2015/02/11/subtle-click-feedback-effects/).
